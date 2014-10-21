@@ -1,0 +1,192 @@
+/************************
+GENERAL
+*************************/
+
+section {
+  max-width: 100%; /*940px*/
+  margin: 0 auto;
+  padding: 0 5%; /*47px / 940px*/
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+
+/************************
+HEADINGS
+*************************/
+
+header {
+  margin: 0 0 3.191489% 0; /*30px / 940px*/
+  padding: .531915% 0 0 0; /*5px / 940px*/
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  margin: 1.595744680851% 0; /*15px / 940*/
+  font-size: 2.5em; /*40px / 16px*/
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5625em; /*25px / 16px*/
+  font-weight: normal;
+  margin: 1.595745% 0; /*15px / 940*/
+}
+
+.title-1 {
+  text-align: center;
+}
+
+.title-2 {
+  padding-top: 8.510638%; /*80px / 940px*/
+  text-align: center;
+  clear: both;
+}
+
+.paragraph-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+/************************
+NAVIGATION
+*************************/
+
+nav {
+  text-align: center;
+  padding: 1.06383% 0; /*10px / 940px*/
+  margin: 2.12766% 0 0; /*20px / 940px*/
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 1.06383%; /*10px / 940px*/
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: normal;
+  padding: 10px; /*10px*/
+  margin: auto;
+}
+
+
+
+/************************
+FOOTER
+*************************/
+
+footer {
+  margin: 3.191489% 0 0 0; /*30px / 940px*/
+  padding: .531915% 0 0 0; /*5px / 940px*/
+  width: 100%;
+  text-align: center;
+  clear: both;
+}
+
+
+
+/************************
+IMAGES
+*************************/
+
+.gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery li {
+  float: left;
+  width: 30%; /*282px / 940px*/
+  margin: .80%; /*7.52px / 940px*/
+  border: solid #f5f5f5;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+.gallery li a p {
+  margin: 0;
+  padding: 5%; /*47px / 940px*/
+  font-size: 0.90em; /*14px / 16px*/
+  color: darkgray;
+}
+
+
+
+/************************
+COLORS
+*************************/
+
+body {
+  background: #fff;
+}
+
+header {
+  background: #8760DB;
+}
+
+h1 {
+  color: powderblue;
+}
+
+h2 {
+  color: black;
+}
+
+.title-1, .title-2 {
+  color: darkgray;
+}
+
+a {
+  color: #60DBD9;
+}
+
+nav {
+  background: #7454B8;
+}
+
+nav a, nav a:visited {
+  color: hotpink;
+}
+
+nav a.selected, nav a:hover {
+  color: #60DBD9;
+}
+
+
+
+/************************
+MEDIA QUERIES
+*************************/
+
+@media screen and (max-width: 480px) {
+  .gallery,
+  .gallery li,
+  .gallery li a p {
+    width: 100%;
+  }
+}
+
